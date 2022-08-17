@@ -1,24 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  
+  <FirstToolbar />
+
+  <h1>Hola arturo</h1>
+
+
 </template>
 
 <script>
+  import FirstToolbar from './components/FirstToolbar.vue';
 
   export default {
     name: 'App',
     components: {
+      FirstToolbar
     }
   }
 </script>
 
 <style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+
 </style>
