@@ -1,22 +1,14 @@
 <template>
-  <FirstToolbar />
-
-  <h1>Hola arturo</h1>
-
-
+    <h1>hola bb</h1>
 </template>
 
 <script>
-  import FirstToolbar from './components/FirstToolbar.vue';
-
-  export default {
-    name: 'App',
-    components: {
-      FirstToolbar
+    export default {
+        name: 'App',
+        components: {
+        }
     }
-  }
 </script>
 
 <style>
-
 </style>
