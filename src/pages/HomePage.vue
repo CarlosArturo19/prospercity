@@ -1,4 +1,5 @@
 <template>
+    
     <FirstToolbar />
     <SecondToolbar />
     <TopSection />
@@ -15,19 +16,19 @@
 </template>
 
 <script>
-    import FirstToolbar from './components/FirstToolbar.vue';
-    import SecondToolbar from './components/SecondToolbar.vue';
-    import TopSection from './components/TopSection.vue';
-    import InformationSection from './components/InformationSection.vue';
-    import AboutSection from './components/AboutSection.vue';
-    import CategoriesSection from './components/CategoriesSection.vue';
-    import ProductsSection from './components/ProductsSection.vue';
-    import FirstFooter from './components/FirstFooter.vue';
-    import SecondFooter from './components/SecondFooter.vue';
+    import FirstToolbar from '../components/FirstToolbar.vue';
+    import SecondToolbar from '../components/SecondToolbar.vue';
+    import TopSection from '../components/TopSection.vue';
+    import InformationSection from '../components/InformationSection.vue';
+    import AboutSection from '../components/AboutSection.vue';
+    import CategoriesSection from '../components/CategoriesSection.vue';
+    import ProductsSection from '../components/ProductsSection.vue';
+    import FirstFooter from '../components/FirstFooter.vue';
+    import SecondFooter from '../components/SecondFooter.vue';
 
 
     export default {
-        name: 'App',
+        name: 'HomePage',
         components: {
             FirstToolbar,
             SecondToolbar,
