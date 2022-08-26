@@ -47,20 +47,26 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Products</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="product.html">Products</a>
-                            <a class="dropdown-item" href="product-single.html">Single Product</a>
-                            <a class="dropdown-item" href="cart.html">Cart</a>
-                            <a class="dropdown-item" href="checkout.html">Checkout</a>
-                        </div>
+                    <li class="nav-item active">
+                        <!-- <a href="index.html" class="nav-link">Home</a> -->
+                        <router-link to="/" class="nav-link">Home</router-link>
                     </li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+
+                    <li class="nav-item">
+                        <!-- <a href="about.html" class="nav-link">About</a> -->
+                         <router-link to="/about" class="nav-link">About</router-link>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- <a href="about.html" class="nav-link">About</a> -->
+                         <router-link to="/products" class="nav-link">Products</router-link>
+                    </li>
+
+                    <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+                    <li class="nav-item">
+                        <!-- <a href="contact.html" class="nav-link">Contact</a> -->
+                         <router-link to="/Contact" class="nav-link">Contact</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -76,8 +82,7 @@ export default {
 </script>
 
 <style>
-    nav
-    {
-        background-color: red;
-    }
+nav {
+    background-color: red;
+}
 </style>
