@@ -1,12 +1,12 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Liquor <span>store</span></a>
+            <a class="navbar-brand" href="index.html">Prosper <span>city</span></a>
             <div class="order-lg-last btn-group">
                 <a href="#" class="btn-cart dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    <span class="flaticon-shopping-bag"></span>
-                    <div class="d-flex justify-content-center align-items-center"><small>3</small></div>
+                    <span class="fa fa-cart-plus"></span>
+                    
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <div class="dropdown-item d-flex align-items-start" href="#">
@@ -48,19 +48,19 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item" :class="{ active: path === 'home' }">
-                        <router-link to="/" class="nav-link">Home</router-link>
+                        <router-link to="/" class="nav-link">inicio</router-link>
                     </li>
 
                     <li class="nav-item" :class="{ active: path === 'about' }">
-                         <router-link to="/about" class="nav-link">About</router-link>
+                         <router-link to="/about" class="nav-link">nosotros</router-link>
                     </li>
 
                     <li class="nav-item" :class="{ active: path === 'products' }">
-                         <router-link to="/products" class="nav-link">Products</router-link>
+                         <router-link to="/products" class="nav-link">Productos</router-link>
                     </li>
 
                     <li class="nav-item" :class="{ active: path === 'contact' }">
-                         <router-link to="/Contact" class="nav-link">Contact</router-link>
+                         <router-link to="/Contact" class="nav-link">Contacto</router-link>
                     </li>
                 </ul>
             </div>
