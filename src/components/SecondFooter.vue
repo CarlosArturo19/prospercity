@@ -6,7 +6,7 @@
 
                     <p class="mb-0" style="color: rgba(255,255,255,.5);">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;{{ year }} All rights reserved | This template is made with <i
+                        Copyright &copy;{{ year }} Todos Los Derechos Reservados | Desarrolado por ...<i
                             class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
                             target="_blank">Colorlib.com</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

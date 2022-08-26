@@ -3,11 +3,10 @@
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
-                    <span class="subheading">Our Delightful offerings</span>
-                    <h2>Tastefully Yours</h2>
+                    <h2>Comprar ahora</h2>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-3 d-flex">
                     <div class="product ftco-animate fadeInUp ftco-animated">
                         <div class="img d-flex align-items-center justify-content-center img-product">
@@ -181,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <a href="product.html" class="btn btn-primary d-block">View All Products <span
