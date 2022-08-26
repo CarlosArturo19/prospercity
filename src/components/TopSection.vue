@@ -5,9 +5,16 @@
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-8 ftco-animate d-flex align-items-end fadeInUp ftco-animated">
                     <div class="text w-100 text-center">
-                        <h1 class="mb-4">licores <span>pensilvania</span></h1>
-                        <p><a href="#" class="btn btn-primary py-2 px-4">Shop Now</a> <a href="#"
-                                class="btn btn-white btn-outline-white py-2 px-4">Read more</a></p>
+                        <h1 class="mb-4"><span>Licorería</span></h1>
+                        <div class="txt-zoom display-1">
+                            <span style="color: #DAD302;">Pen</span>
+                            <span style="color: #ffffff;">silv</span>
+                            <span style="color: #029B1D;">ania</span>
+                        </div>
+                        <p>
+                            <a href="#" class="btn btn-primary py-2 px-4">Comprar</a> 
+                            <a href="#" class="btn btn-white btn-outline-white py-2 px-4">Ver Más</a>
+                        </p>
                     </div>
                 </div>
             </div>
