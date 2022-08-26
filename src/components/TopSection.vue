@@ -26,7 +26,7 @@ export default {
 <style>
     .img-top
     {
-        background-image: url('../assets/images/img-top-section.jpg');
+        background-image: url('../assets/images/bg-home.jpg');
     }
 
 </style>
