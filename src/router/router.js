@@ -10,10 +10,10 @@ import ContactPage from '../pages/ContactPage';
 
 
 const routes = [
-    { path: '/', component: HomePage },
-    { path: '/about', component: AboutPage },
-    { path: '/products', component: ProductsPage },
-    { path: '/contact', component: ContactPage},
+    { path: '/', name: 'home', component: HomePage },
+    { path: '/about', name: 'about', component: AboutPage },
+    { path: '/products', name: 'products', component: ProductsPage },
+    { path: '/contact', name: 'contact', component: ContactPage },
 ];
 
 const router = createRouter({

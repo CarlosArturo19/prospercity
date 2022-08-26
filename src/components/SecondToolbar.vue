@@ -47,24 +47,19 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <!-- <a href="index.html" class="nav-link">Home</a> -->
+                    <li class="nav-item" :class="{ active: path === 'home' }">
                         <router-link to="/" class="nav-link">Home</router-link>
                     </li>
 
-                    <li class="nav-item">
-                        <!-- <a href="about.html" class="nav-link">About</a> -->
+                    <li class="nav-item" :class="{ active: path === 'about' }">
                          <router-link to="/about" class="nav-link">About</router-link>
                     </li>
 
-                    <li class="nav-item">
-                        <!-- <a href="about.html" class="nav-link">About</a> -->
+                    <li class="nav-item" :class="{ active: path === 'products' }">
                          <router-link to="/products" class="nav-link">Products</router-link>
                     </li>
 
-                    <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-                    <li class="nav-item">
-                        <!-- <a href="contact.html" class="nav-link">Contact</a> -->
+                    <li class="nav-item" :class="{ active: path === 'contact' }">
                          <router-link to="/Contact" class="nav-link">Contact</router-link>
                     </li>
                 </ul>
@@ -77,12 +72,14 @@
 export default {
     name: 'SecondToolbar',
     components: {
+    },
+    data() {
+        return {
+            path: 'home'
+        };
+    }, 
+    created() {
+        this.path = this.$route.name;
     }
 }
 </script>
-
-<style>
-nav {
-    background-color: red;
-}
-</style>
