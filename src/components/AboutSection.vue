@@ -6,18 +6,11 @@
                 </div>
                 <div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5 fadeInUp ftco-animated">
                     <div class="heading-section">
-                        <span class="subheading">Since 1905</span>
-                        <h2 class="mb-4">Desire Meets A New Taste</h2>
-
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                            would have been rewritten a thousand times and everything that was left from its origin
-                            would be the word "and" and the Little Blind Text should turn around and return to its own,
-                            safe country.</p>
-                        <p class="year">
-                            <strong class="number" data-number='115'>0</strong>
-                            <span>Years of Experience In Business</span>
+                        <span class="subheading">Fundado en 1866</span>
+                        <h2 class="mb-4">¡La Perla Del Oriente!</h2>
+                        <p class="description">
+                            "Pensilvania es un municipio colombiano ubicado en el departamento de Caldas. 
+                            Se conoce como la Perla del Oriente por su belleza natural y por la calidad humana de sus pobladores."
                         </p>
                     </div>
 
@@ -37,6 +30,12 @@
 
 <style>
     .img-about{
-        background-image: url('../assets/images/about.jpg');
+        background-image: url('../assets/images/collage-pensilvania-min.png');
+    }
+
+    .description
+    {
+        font-size: x-large;
+        color: black;        
     }
 </style>
