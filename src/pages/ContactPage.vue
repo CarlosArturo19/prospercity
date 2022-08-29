@@ -1,7 +1,7 @@
 <template>
     <FirstToolbar/>
     <SecondToolbar/>
-    <TopAboutSection/>
+    <TopAboutSection title="Contacto"/>
     <ContactSection/>
         <footer class="ftco-footer">
         <FirstFooter />

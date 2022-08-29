@@ -1,7 +1,7 @@
 <template>
     <FirstToolbar />
     <SecondToolbar/>
-    <TopAboutSection/>
+    <TopAboutSection title="Productos"/>
     <ListProductSection/>
     <footer class="ftco-footer">
         <FirstFooter />
@@ -19,14 +19,14 @@
 
      export default {
         name: 'Products Page',
-    components:{
-        FirstToolbar,
-        SecondToolbar,
-        TopAboutSection,
-        ListProductSection,
-        FirstFooter,
-        SecondFooter
-    }
+        components:{
+            FirstToolbar,
+            SecondToolbar,
+            TopAboutSection,
+            ListProductSection,
+            FirstFooter,
+            SecondFooter
+        }
      }
 </script>
 

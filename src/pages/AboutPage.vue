@@ -1,7 +1,7 @@
 <template>
   <FirstToolbar />
   <SecondToolbar />
-  <TopAboutSection />
+  <TopAboutSection title="Nosotros" />
   <InformationSection />
   <AboutSection />
   <CategoriesSection />

@@ -8,21 +8,17 @@
                     <p class="breadcrumbs mb-0">
 
                         <span class="mr-2">
-                            <a href="#">
-                                Home
-                            </a>
+                            <router-link to="/">Inicio</router-link>
                             <i class="fa fa-chevron-right"></i>
                         </span>
 
-                        <span>
-                            <a href="#">
-                                About Us
-                            </a>
+                        <!-- <span>
+                            <a href="#Productos">{{ title }}</a>
                             <i class="fa fa-chevron-right"></i>
-                        </span>
+                        </span> -->
 
                     </p>
-                    <h2 class="mb-0 bread">About Us</h2>
+                    <h2 class="mb-0 bread">{{ title }}</h2>
 
                 </div>
             </div>
@@ -33,7 +29,11 @@
 
 
 <script>
-
+    export default {
+        name:'TopAboutSection',
+        components:{ },
+        props: ['title']
+    }
 </script>
 
 
