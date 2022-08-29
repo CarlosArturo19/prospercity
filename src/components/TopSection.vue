@@ -12,7 +12,9 @@
                             <span style="color: #029B1D;">ania</span>
                         </div>
                         <p>
-                            <a href="#" class="btn btn-primary py-2 px-4">Comprar</a> 
+                            <router-link to="/products" class="btn btn-primary py-2 px-4">Comprar</router-link>
+
+
                             <a href="#" class="btn btn-white btn-outline-white py-2 px-4">Ver Más</a>
                         </p>
                     </div>

@@ -22,7 +22,10 @@
                         </p>
                     </div>
                     <div class="reg">
-                        <p class="mb-0"><a href="#" class="mr-2">Rsgistrarse</a> <a href="#">Log In</a></p>
+                        <p class="mb-0">
+                            <a href="#" class="mr-2">Registrarse</a> 
+                            <a href="#">Log In</a>
+                        </p>
                     </div>
                 </div>
             </div>

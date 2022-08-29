@@ -2,9 +2,7 @@
   <FirstToolbar />
   <SecondToolbar />
   <TopAboutSection title="Nosotros" />
-  <InformationSection />
-  <AboutSection />
-  <CategoriesSection />
+  <AboutSection class="mb-4" />
   <footer class="ftco-footer">
     <FirstFooter />
     <SecondFooter />

@@ -26,6 +26,10 @@
             ListProductSection,
             FirstFooter,
             SecondFooter
+        },
+        mounted()
+        {
+            window.scroll(0, 440);
         }
      }
 </script>
