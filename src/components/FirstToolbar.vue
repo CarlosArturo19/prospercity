@@ -23,8 +23,8 @@
                     </div>
                     <div class="reg">
                         <p class="mb-0">
-                            <a href="#" class="mr-2">Registrarse</a> 
-                            <a href="#">Log In</a>
+                            <router-link to ="#" class="mr-2">Registrarse </router-link>
+                            <router-link to="/login">Log In</router-link>
                         </p>
                     </div>
                 </div>

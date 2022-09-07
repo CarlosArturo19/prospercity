@@ -13,9 +13,7 @@
                         </div>
                         <p>
                             <router-link to="/products" class="btn btn-primary py-2 px-4">Comprar</router-link>
-
-
-                            <a href="#" class="btn btn-white btn-outline-white py-2 px-4">Ver Más</a>
+                            <router-link to="/about" class="btn btn-white btn-outline-white py-2 px-4">Ver Más</router-link>
                         </p>
                     </div>
                 </div>
